@@ -3,8 +3,8 @@
 
 ### The Hard Method
 ```js
-$ git clone https://github.com/phaticusthiccy/WhatsAsenaDuplicated.git
-$ cd WhatsAsenaDuplicated
+$ git clone https://github.com/abhimodzz/WhatsAsenaPublic.git
+$ cd WhatsAsenaPublic
 $ npm i @adiwajshing/baileys
 $ npm i chalk
 $ node qr.js
