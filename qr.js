@@ -18,10 +18,10 @@ async function whatsAsena () {
     conn.regenerateQRIntervalMs = 40000;
     
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
+        console.log(`${chalk.blue.bold('WhatsAsenaPublic')}${chalk.green.bold('WHATSAPP BOT BY ABHINAV')}
 ${chalk.white.italic('AsenaString Kodu Alıcı')}
 
-${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please Wait.')}`);
+${chalk.red.bold('🐺  Connecting to Whatsapp as WhatsAsenaPublic... Please Wait... [ Bot Made By Toxic Devil ]')}`);
     });
     
 
