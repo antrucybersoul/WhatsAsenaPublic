@@ -896,7 +896,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'HEY BRO!! 😁 *HERE IS YOUR X4MP4 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -917,7 +917,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'HEY BRO!! 😁 *HERE IS YOUR X2MP4 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -940,7 +940,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4IMAGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -960,7 +960,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-filter_complex", "[0:a]showspectrum=s=720x1280,format=yuv420p[v]", "-map", "[v]", "-map 0:a"])
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR SPECTRUM 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -980,7 +980,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-filter_complex", "[0:a]showwaves=s=720x1280:mode=cline:rate=25,format=yuv420p[v]", "-map", "[v]", "-map 0:a"])
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR WAVES 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1000,7 +1000,7 @@ else if (Config.WORKTYPE == 'public') {
                 .outputOptions(["-y", "-filter_complex", "[0:a]showfreqs=s=720x1280:mode=cline:fscale=log,format=yuv420p[v]", "-map", "[v]", "-map 0:a"])
                 .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR FREQUENCY 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1020,7 +1020,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-filter_complex", "[0:a]avectorscope=s=720x1280:rf=5:gf=25:bf=5:draw=line,format=yuv420p[v]", "-map", "[v]", "-map 0:a"])
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR AVEC 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1040,7 +1040,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-filter_complex", "[0:a]showvolume=f=1:b=4:w=720:h=68,format=yuv420p[vid]", "-map", "[vid]", "-map 0:a"])
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR VOLUMEAUDIO 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1060,7 +1060,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-filter_complex", "[0:a]showcqt=s=1280x720,format=yuv420p[v]", "-map", "[v]", "-map 0:a"])
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR CQTAUDIO 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1141,7 +1141,7 @@ else if (Config.WORKTYPE == 'public') {
             .fps(22)
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4VINTAGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1163,7 +1163,7 @@ else if (Config.WORKTYPE == 'public') {
             .fps(22)
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4REVERSE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1184,7 +1184,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4BW 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1204,7 +1204,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-vf", "hue=s=0"])
             .save('output.jpg')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR BWIMAGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'});
         });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1224,7 +1224,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-vf", "curves=vintage"])
             .save('output.jpg')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR VINTAGE IMAGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1245,7 +1245,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4ENHANCE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1265,7 +1265,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-vf", "split[original][copy];[copy]scale=ih*16/9:-1,crop=h=iw*9/16,gblur=sigma=20[blurred];[blurred][original]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2"])
             .save('output.jpg')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR BLUR IMAGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1285,7 +1285,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-vf", "split[original][copy];[copy]scale=ih*16/9:-1,crop=h=iw*9/16,gblur=sigma=20[blurred];[blurred][original]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2"])
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4BLUR 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1326,7 +1326,8 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4EDGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
+            });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
 
@@ -1385,7 +1386,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-filter:v", "edgedetect=low=0.9:high=0.2"])
             .save('output.jpg')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR EDGEIMAGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1405,7 +1406,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-vf", "unsharp=3:3:1.5"])
             .save('output.jpg')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR ENHANCE IMAGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1447,7 +1448,7 @@ else if (Config.WORKTYPE == 'public') {
             .videoBitrate(500)
             .save('output_gif.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output_gif.mp4'), MessageType.video, {mimetype: Mimetype.gif, caption: 'HEY BRO!! 😁 *HERE IS YOUR GIF 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output_gif.mp4'), MessageType.video, {mimetype: Mimetype.gif, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1468,7 +1469,7 @@ else if (Config.WORKTYPE == 'public') {
                 .videoBitrate(500)
                 .save('output_gif.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('output_gif.mp4'), MessageType.video, {mimetype: Mimetype.gif, caption: 'HEY BRO!! 😁 *HERE IS YOUR AGIF 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                    await message.sendMessage(fs.readFileSync('output_gif.mp4'), MessageType.video, {mimetype: Mimetype.gif, caption: 'Made by WhatsAsena'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }));
@@ -1488,7 +1489,7 @@ else if (Config.WORKTYPE == 'public') {
             .videoFilters('noise=alls=100:allf=t+u')
             .save('output.jpg')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR GREN IMAGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1513,7 +1514,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: `HEY BRO!! 😁 *HERE IS YOUR INTERP 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_\n_Interpolated to ${match[1]} FPS_`});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {caption: `Made by WhatsAsena\n_Interpolated to ${match[1]} FPS_`});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1534,7 +1535,7 @@ else if (Config.WORKTYPE == 'public') {
             .videoFilters('eq=brightness=0.5')
             .save('output.jpg')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR RAINBOW IMAGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1555,7 +1556,7 @@ else if (Config.WORKTYPE == 'public') {
             .videoFilters('eq=brightness=0.5')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4RAINBOW 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1575,7 +1576,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-vf", "curves=color_negative"])
             .save('output.jpg')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR NEGATIVE IMAGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1596,7 +1597,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4NEGATIVE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1617,7 +1618,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4ART 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1637,7 +1638,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-vf", "convolution=-2 -1 0 -1 1 1 0 1 2:-2 -1 0 -1 1 1 0 1 2:-2 -1 0 -1 1 1 0 1 2:-2 -1 0 -1 1 1 0 1 2"])
             .save('output.jpg')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR ART IMAGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1658,7 +1659,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4STAB 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1679,7 +1680,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4COLOR 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1699,7 +1700,7 @@ else if (Config.WORKTYPE == 'public') {
             .outputOptions(["-y", "-vf", "eq=contrast=1.3:saturation=1.5:brightness=-0.1"])
             .save('output.jpg')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR COLOR IMAGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
@@ -1724,7 +1725,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('slowmo.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('slowmo.mp4'), MessageType.video, {caption: 'HEY BRO!! 😁 *HERE IS YOUR SLOW MOTION 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('slowmo.mp4'), MessageType.video, {caption: 'True Slow-Motion by WhatsAsena'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
