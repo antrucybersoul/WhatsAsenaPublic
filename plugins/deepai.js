@@ -49,7 +49,7 @@ if (Config.WORKTYPE == 'private') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR COLORAI 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'})
 
             });
 
@@ -79,7 +79,7 @@ if (Config.WORKTYPE == 'private') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR WAIFUAI 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'})
 
             });
 
@@ -109,7 +109,7 @@ if (Config.WORKTYPE == 'private') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR SUPERAI 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'})
 
             });
 
@@ -151,7 +151,7 @@ if (Config.WORKTYPE == 'private') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR DREAMAI 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'})
 
             });
 
@@ -197,7 +197,7 @@ if (Config.WORKTYPE == 'private') {
 
         var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'})
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR TTIAI 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'})
 
     }));
 
@@ -294,7 +294,7 @@ if (Config.WORKTYPE == 'private') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR GANSTYLE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'})
 
             });
 
@@ -332,7 +332,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR COLORAI 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'})
 
             });
 
@@ -362,7 +362,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR WAIFUAI 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'})
 
             });
 
@@ -392,7 +392,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR SUPERAI 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'})
 
             });
 
@@ -434,7 +434,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR DREAMAI 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'})
 
             });
 
@@ -480,7 +480,7 @@ else if (Config.WORKTYPE == 'public') {
 
         var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'})
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR TTIAI 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'})
 
     }));
 
@@ -577,7 +577,7 @@ else if (Config.WORKTYPE == 'public') {
 
                 var respoimage = await axios.get(`${resp.output_url}`, { responseType: 'arraybuffer' })
 
-                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsena'})
+                await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'HEY BRO!! 😁 *HERE IS YOUR GAN STYLE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'})
 
             });
 
