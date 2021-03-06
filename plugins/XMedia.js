@@ -1326,7 +1326,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('output.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: HEY BRO!! 😁 *HERE IS YOUR MP4EDGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('output.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: 'HEY BRO!! 😁 *HERE IS YOUR MP4EDGE 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
 
