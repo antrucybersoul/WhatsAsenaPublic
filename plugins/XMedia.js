@@ -1724,7 +1724,7 @@ else if (Config.WORKTYPE == 'public') {
             .format('mp4')
             .save('slowmo.mp4')
             .on('end', async () => {
-                await message.sendMessage(fs.readFileSync('slowmo.mp4'), MessageType.video, {caption: 'HEY BRO!! 😁 *HERE IS YOUR TRUE SLOW MOTION 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
+                await message.sendMessage(fs.readFileSync('slowmo.mp4'), MessageType.video, {caption: 'HEY BRO!! 😁 *HERE IS YOUR SLOW MOTION 😌*  _THANKS TO : 𝐓𝐎𝐗𝐈𝐂  𝐃𝐄𝐕𝐈𝐋_'});
             });
         return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
     }));
