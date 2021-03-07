@@ -27,23 +27,23 @@
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
-            "IM_NOT_ADMIN": "*I am not admin in this group!*",
+            "IM_NOT_ADMIN": "*Make The Bot, Group Admin To Use This Command!*",
             "BANNED": "kicked out of the group!",
-            "GIVE_ME_USER": "*Give me a user!*",
+            "GIVE_ME_USER": "*Tag AnyOne or Reply To Message and Use This Command!*",
             "ADD_DESC": "Adds someone to the group.",
             "ADDED": "added to the group!",
-            "ALREADY_PROMOTED": "```How can I make someone admin who is already admin?```",
-            "PROMOTED": "```, admin role was given!```",
+            "ALREADY_PROMOTED": "```How can I Promote Someone who is already Promoted? 🤣```",
+            "PROMOTED": "```, Was Promoted Sucessfully!```",
             "PROMOTE_DESC": "Makes any person an admin.",
             "DEMOTE_DESC": "Takes the authority of any admin.",
-            "ALREADY_NOT_ADMIN": "```How can I make someone admin who is already admin?```",
+            "ALREADY_NOT_ADMIN": "```How can I demote Someone  who is already demoted? 🤣```",
             "DEMOTED": "```, has been demoted!```",
             "MUTE_DESC": "Mute the group chat. Only the admins can send a message.",
-            "MUTED": "```Group chat muted!```",
+            "MUTED": "```The Group has muted Sucessfully!```",
             "UNMUTE_DESC": "Unmute the group chat. Anyone can send a message.",
-            "UNMUTED": "```The group chat has unmuted!```",
+            "UNMUTED": "```The group chat has unmuted Sucessfully!```",
             "INVITE_DESC": "Provides the group's invitation link.",
-            "INVITE": "```Invitation link: ```"
+            "INVITE": "```Group Invitation Link: ```"
         },
         "locate": {
             "L_DESC": "It send your location.",
@@ -56,7 +56,7 @@
             "REASON": "Reason",
             "LAST_SEEN": "Last Seen",
             "IM_NOT_AFK": "```I am not AFK anymore!```",
-            "AFK_TEXT": "```Bip bop! This is a bot. My owner is not here at the moment.```",
+            "AFK_TEXT": "```Bip bop! This is a Bot. My owner is not here at the moment.```",
             "AFK_TEXT_NOMD": "Bip bop! This is a bot.",
             "HOUR": "hour",
             "MINUTE": "minute",
@@ -68,12 +68,12 @@
         },
         "nekobin": {
             "NEKO_DESC": "Replied messages will be added to nekobin.com.",
-            "NEED_REPLY": "```Please reply to a message!```",
-            "MUST_TEXT": "```Please reply to any message```"
+            "NEED_REPLY": "```Please reply to a message and use this command!```",
+            "MUST_TEXT": "```Please reply to any message and use this command```"
         },
         "heroku": {
             "RESTART_DESC": "Restart WhatsAsena",
-            "RESTART_MSG": "```Restarting...```",
+            "RESTART_MSG": "```Restarting WhatsAsenaPublic...```",
             "SHUTDOWN_DESC": "Shutdown WhatsAsena",
             "SHUTDOWN_MSG": "```Shutting down ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
@@ -127,12 +127,12 @@
         },
         "memes": {
             "MEMES_DESC": "Photo memes you replied to.",
-            "NEED_REPLY": "*Reply to a photo!*",
+            "NEED_REPLY": "*Reply to a photo and Use This Command!*",
             "DOWNLOADING": "```Downloading media & making meme...```"
         },
         "ocr": {
             "OCR_DESC": "Reads the text on the photo you have replied.",
-            "NEED_REPLY": "*Reply to a photo!*",
+            "NEED_REPLY": "*Reply to a photo and Use This Command!*",
             "DOWNLOADING": "```Media is downloading & reading...```",
             "ERROR": "```I couldn't read this :/```\n*Error:*```{}```",
             "RESULT": "*Language:* ```{}```\n*Here is what I read:* ```{}```"
@@ -141,8 +141,8 @@
             "KICKME_DESC": "It kicks you from the group you are using it in.",
             "KICKME": "```Bye bye! I am going 🤠```",
             "PP_DESC": "Makes the profile photo what photo you reply.",
-            "NEED_PHOTO": "*Give me a photo!*",
-            "PPING": "```Setting profile photo...```",
+            "NEED_PHOTO": "*Reply Any Photo and Use This Command!*",
+            "PPING": "```Profile Photo Setted Successfully! ✅```",
             "BLOCK_DESC": "Block user.",
             "UNBLOCK_DESC": "Unblock user.",
             "BLOCKED": "blocked",
@@ -156,9 +156,9 @@
         },
         "removebg": {
             "REMOVEBG_DESC": "Removes the background of the photos.",
-            "NEED_PHOTO": "*Give me a photo!*",
+            "NEED_PHOTO": "*Reply To a Photo And Use This Command!*",
             "NO_API_KEY": "*You don't have an API key!*\nYou can get it here: remove.bg.",
-            "RBGING": "```Removing background...```"
+            "RBGING": "```Please Wait Muthee 😘...Removing background...```"
         },
         "scrapers": {
             "TRANSLATE_DESC": "It translates with Google Translate. You must reply any message.",
@@ -174,27 +174,27 @@
             "TTS_DESC": "It converts text to sound.",
             "TTS_ERROR": "```Error, Speech example of your sentence couldn't be made!```",
             "SONG_DESC": "Uploads the song you wrote.",
-            "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - rap god```",
+            "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - Master BGM```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "```Downloading your song...```",
-            "UPLOADING_SONG": "```Uploading your song...```",
+            "DOWNLOADING_SONG": "```Please Wait Muthee 😘 Downloading your song...```",
+            "UPLOADING_SONG": "```Ippo Tharam 😍...Uploading your song...```",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "```Downloading your video...```",
-            "UPLOADING_VIDEO": "```Uploading your video...```",
+            "DOWNLOADING_VIDEO": "```Please Wait Muthee 😘...Downloading your video...```",
+            "UPLOADING_VIDEO": "```Ippo Tharam 😍...Uploading your video...```",
             "YT_DESC": "It searchs on YouTube.",
-            "NEED_WORDS": "```Please write a few words!```",
-            "GETTING_VIDEOS": "```I'm bringing videos...```",
+            "NEED_WORDS": "```Please write a few words Along With The Command!```",
+            "GETTING_VIDEOS": "```🔍 I'm Searching For videos 🔎...```",
             "NOT_FOUND": "*I couldn't find anything :(*",
-            "SEARCHING": "* 🔎 Searching...*",
+            "SEARCHING": "* 🔎 Searching 🔍...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
             "IMG": "Uploading photo ```{}``` number ```{} ```..."
         },
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
-            "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Media downloading & converting to sticker...```"
+            "NEED_REPLY": "*Reply to a photo or video and use this command!*",
+            "DOWNLOADING": "```Please Wait Muthee 😘...Media downloading & converting to sticker...```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -202,18 +202,18 @@
         },
         "tagall": {
             "TAGALL_DESC": "Tags everyone in the group.",
-            "ADMİN": "*I am not admin in this group!*"
+            "ADMİN": "*Make The Bot, Group Admin To Use This Command!*"
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*Your bot is completely up-to-date!*",
             "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "_Updating..._",
+            "UPDATING": "_Please Wait Muthee 😘 Updating WhatsAsenaPublic..._ *[ Toxic Devil ]*",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*✅ Successfully Updated!*",
-            "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 WhatsAsena Restating Automaticly!*"
+            "UPDATED": "*✅ WhatsAsenaPublic Successfully Updated!*",
+            "UPDATED_LOCAL": "*✅ WhatsAsenaPublic Successfully Updated!*",
+            "AFTER_UPDATE": "*💬 WhatsAsenaPublic [ Toxic Devil ] Restating Automaticly!*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
@@ -224,11 +224,11 @@
             "HUMI": "Humidity",
             "WIND": "Wind Speed",
             "CLOUD": "Cloud",
-            "NOT_FOUND": "```I couldn't find a city with this name. 😖```"
+            "NOT_FOUND": "```I couldn't find a city with this name. 😞```"
         },
         "web": {
             "SPEEDTEST_DESC": "Measures Download and Upload speed.",
-            "SPEEDTESTING": "```Running speed test...```",
+            "SPEEDTESTING": "```Running speed test...Please Wait About For 30 Seconds!!```",
             "SPEEDTEST_RESULT": "*Speed ​​test completed!*",
             "UPLOAD": "Upload",
             "DOWNLOAD": "Download",
@@ -236,11 +236,11 @@
         },
         "conventer": {
             "MP4TOAUDİO_DESC": "Converts video to sound.",
-            "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Video!*",
-            "MP4TOAUDİO": "```Converting Video to Audio..```",
+            "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Video and use this command!*",
+            "MP4TOAUDİO": "```Please Wait Muthee 😘...Converting Video to Audio..```",
             "STİCKER_DESC": "Converts the sticker to a photo.",
-            "STİCKER_NEEDREPLY": "*You Must Reply to a sticker!*",
-            "STİCKER": "```Converting the sticker to a photo..```",
+            "STİCKER_NEEDREPLY": "*You Must Reply to a sticker and use this command!*",
+            "STİCKER": "```Please Wait Muthee 😘...Converting the sticker to a photo..```",
             "XMEDİA_DESC": "It is a plugin with more than 25 media tools."
         },
         "mute": {
@@ -330,16 +330,16 @@
         },
         "unvoice": {
             "UV_DESC": "Converts audio to sound recording.",
-            "UV_REPLY": "*You Must Reply to the Audio File!*",
-            "UV_PROC": "```Converting to Sound Recording..```"
+            "UV_REPLY": "*You Must Reply to the Audio File and use this command!*",
+            "UV_PROC": "```Please Wait Muthee 😘...Converting to Sound Recording..```"
         },
         "ffmpeg": {
             "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
-            "FF_PROC": "Applying Effect.."
+            "FF_PROC": "Please Wait Muthee 😘...Applying Effect.."
         },
         "spammer": {
             "SPAM_DESC": "It spam until you stop it.\n⌨️ Example: .spam test",
-            "NEED_WORD": "*Need Some Words!*",
+            "NEED_WORD": "*Need Some Words along with command!*",
             "STOP_SPAMDESC": "Stops spam command.",
             "STOP_SPAM": "✅ *Spam successfully stopped! Please wait a moment.*"
         },
@@ -350,8 +350,8 @@
         },
         "scam": {
             "SCAM_DESC": "Creates 5 minutes of fake actions.",
-            "SCAM_NOTFOUND": "*You Must Enter Fake Action!*\nExisting Types: ```typing & recording & online & stop```",
-            "SCAM_NULL": "```Wrong Action Entered! Please use existing types.```"
+            "SCAM_NOTFOUND": "*You Must Enter Fake Action along with the command!*\nExisting Types: ```typing & recording & online & stop```",
+            "SCAM_NULL": "```Wrong Action Entered, Please Check The Action! Please use existing types.```"
         },
         "deepai": {
             "DEEPAI_DESC": "Runs the most powerful artificial intelligence tools using artificial neural networks.",
@@ -361,7 +361,7 @@
         "ttp": {
             "TTP_DESC": "Converts text to plain painting.",
             "ATTP_DESC": "Adds rainbow effect to the text as a sticker.",
-            "NEED_WORD": "*You must enter words!*",
+            "NEED_WORD": "*You must enter words along with the command!*",
             "ANIME_DESC": "It writes the text inside the banner the anime girl is holding",
             "TRUMP_DESC": "Converts the text to Trump's tweet.",
             "CHANGE_DESC": "Turns the text into the change my mind poster."
@@ -371,10 +371,10 @@
         },
         "webss": {
             "SS_DESC": "Takes a screenshot from the page in the given link.",
-            "LİNK": "You must enter link!"
+            "LİNK": "You must enter link along with the command!"
         },
         "voicy": {
-            "NEED_REPLY": "```Please reply to any message!```",
+            "NEED_REPLY": "```Please reply to any message and use this command!```",
             "ONLY_AUDIO":"```Only audio file is accepted.```",
             "USAGE": "````It converts audio to text.```",
             "TEXT": "*Hey! I listened secretly to this voice and heard those!:* \n\n"
@@ -384,11 +384,11 @@
             "NO_SAVED": "You don't have any saved notes.",
             "SAVED": "Here is your saved messages: ",
             "SAVE_USAGE": "Reply a message and type .save or just use .save <Your note> without replying",
-            "REPLY": "Please provide a note or reply to a message.",
-            "SUCCESSFULLY_ADDED": "Successfully added new note, check your notes with .notes.",
-            "UNSUCCESSFUL": "Could not add note, please try again later or contact WhatsAsena developers.",
+            "REPLY": "Please provide a note or reply to a message and use this command.",
+            "SUCCESSFULLY_ADDED": "✅ Successfully added new note, check your notes with .notes.",
+            "UNSUCCESSFUL": "Could not add note, please try again later or contact *Toxic Devil [ Abhinav ].*",
             "DELETE_USAGE": "Deletes *all* your saved notes.",
-            "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
+            "SUCCESSFULLY_DELETED": "✅ Successfully deleted all your notes."
         },
         "instagram": {
             "NEED_WORD": "*Please enter username of any instagram account.*",
