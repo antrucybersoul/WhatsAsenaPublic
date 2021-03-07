@@ -43,7 +43,7 @@ if (Config.WORKTYPE == 'private') {
             );
         
             await message.client.sendMessage(
-                message.jid,'● *_WhatsAsena Private By Toxic Devil_* ●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'*Hai Bro!!*👋🐺\n\n_I am WhatsAsenaPublic_\n\n*How Are You?*\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
             var CMD_HELP = '';
@@ -74,7 +74,7 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'● *_WhatsAsena Private By Toxic Devil_* ●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'*Hai Bro!!*👋🐺\n\n_I am WhatsAsenaPublic_\n\n*How Are You?*\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
@@ -109,7 +109,7 @@ else if (Config.WORKTYPE == 'public') {
             );
         
             await message.client.sendMessage(
-                message.jid,'● *_WhatsAsena Public By Toxic Devil_* ●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'*Hai Bro!!*👋🐺\n\n_I am WhatsAsenaPublic_\n\n*How Are You?*\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
             var CMD_HELP = '';
@@ -140,7 +140,7 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'● *_WhatsAsena Public By Toxic Devil_* ●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'*Hai Bro!!*👋🐺\n\n_I am WhatsAsenaPublic_\n\n*How Are You?*\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
