@@ -33,7 +33,7 @@
             "ADD_DESC": "Adds someone to the group.",
             "ADDED": "added to the group!",
             "ALREADY_PROMOTED": "```How can I Promote Someone who is already Promoted? 🤣```",
-            "PROMOTED": "```, Was Promoted Sucessfully!```",
+            "PROMOTED": "```, is Promoted Sucessfully!```",
             "PROMOTE_DESC": "Makes any person an admin.",
             "DEMOTE_DESC": "Takes the authority of any admin.",
             "ALREADY_NOT_ADMIN": "```How can I demote Someone  who is already demoted? 🤣```",
