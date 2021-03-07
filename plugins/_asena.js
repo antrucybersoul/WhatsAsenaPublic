@@ -43,7 +43,7 @@ if (Config.WORKTYPE == 'private') {
             );
         
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *WhatsAsena Private* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'● 「 𝚆𝚑𝚊𝚝𝚜𝙰𝚜𝚎𝚗𝚊 」 ●\n\n‎ *Hai Bro!!*👋🐺\n_I am WhatsAsenaPublic_\n\n‎*_Owner : Toxic Devil [ Abhinav ]_*\n*_Contact Owner :  https://Wa.me/+919645677094_*\n\n```Github : https://github.com/abhimodzz/WhatsAsenaPublic```\n\n☆ *ALL EXISTING COMMANDS* ☆\n\n👇‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎\n👇 ‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎‎‎‎ ‎ ‎ ‎ \n👇 ‎ ‎\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
             var CMD_HELP = '';
@@ -74,7 +74,7 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *WhatsAsena Private* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'● 「 𝚆𝚑𝚊𝚝𝚜𝙰𝚜𝚎𝚗𝚊 」 ●\n\n‎ *Hai Bro!!*👋🐺\n_I am WhatsAsenaPublic_\n\n‎*_Owner : Toxic Devil [ Abhinav ]_*\n*_Contact Owner :  https://Wa.me/+919645677094_*\n\n```Github : https://github.com/abhimodzz/WhatsAsenaPublic```\n\n☆ *ALL EXISTING COMMANDS* ☆\n\n👇‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎\n👇 ‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎‎‎‎ ‎ ‎ ‎ \n👇 ‎ ‎\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
@@ -109,7 +109,7 @@ else if (Config.WORKTYPE == 'public') {
             );
         
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *WhatsAsena Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'● 「 𝚆𝚑𝚊𝚝𝚜𝙰𝚜𝚎𝚗𝚊 」 ●\n\n‎ *Hai Bro!!*👋🐺\n_I am WhatsAsenaPublic_\n\n‎*_Owner : Toxic Devil [ Abhinav ]_*\n*_Contact Owner :  https://Wa.me/+919645677094_*\n\n```Github : https://github.com/abhimodzz/WhatsAsenaPublic```\n\n☆ *ALL EXISTING COMMANDS* ☆\n\n👇‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎\n👇 ‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎‎‎‎ ‎ ‎ ‎ \n👇\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
             var CMD_HELP = '';
@@ -140,7 +140,7 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *WhatsAsena Public* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'● 「 𝚆𝚑𝚊𝚝𝚜𝙰𝚜𝚎𝚗𝚊 」 ●\n\n‎ *Hai Bro!!*👋🐺\n_I am WhatsAsenaPublic_\n\n‎*_Owner : Toxic Devil [ Abhinav ]_*\n*_Contact Owner :  https://Wa.me/+919645677094_*\n\n```Github : https://github.com/abhimodzz/WhatsAsenaPublic```\n\n☆ *ALL EXISTING COMMANDS* ☆\n\n👇‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎\n👇 ‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎‎‎‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎‎‎‎ ‎ ‎ ‎ \n👇\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
